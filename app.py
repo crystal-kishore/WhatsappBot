@@ -5,6 +5,7 @@ from newspaper import Article
 import validators
 
 
+
 app = Flask(__name__)
 
 @app.route("/")
