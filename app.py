@@ -38,7 +38,7 @@ def sms_reply():
 
     elif msg == "Hi" or msg == "hi":
         resp = MessagingResponse()
-        resp.message("Hi, I am Karen 👋 , a Twilio Bot. I will summarise any news , article , blog in text and send to you 📒 . Send only valid URL for the result. ✅ - Project made by Kishore for Cloud Native Hackathon.")
+        resp.message("Hi, I am Karen 👋 , a Twilio Bot. I will summarise any news , article , blog in text and send to you 📒 . Send only valid URL for the result. Hell Yeah!✅ - Project made by Kishore for Cloud Native Hackathon.")
         return str(resp)
     
     else :
@@ -48,4 +48,5 @@ def sms_reply():
  
 if __name__ == "__main__":
     app.run(debug=True)
+
 
