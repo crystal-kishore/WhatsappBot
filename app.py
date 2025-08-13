@@ -13,6 +13,7 @@ def hello():
 
 
 @app.route("/sms", methods=['POST'])
+
 def sms_reply():
     """Respond to incoming calls with a simple text message."""
     # Fetch the message
@@ -48,6 +49,7 @@ def sms_reply():
  
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
