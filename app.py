@@ -15,7 +15,7 @@ def hello():
 @app.route("/sms", methods=['POST'])
 
 def sms_reply():
-    """Respond to incoming calls with a simple text message."""
+    """Respond to incoming calls with a single text message."""
     # Fetch the message
     msg = request.form.get('Body')
     if validators.url(msg):
@@ -49,6 +49,7 @@ def sms_reply():
  
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
