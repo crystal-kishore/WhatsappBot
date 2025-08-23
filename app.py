@@ -20,6 +20,7 @@ def sms_reply():
     msg = request.form.get('Body')
     if validators.url(msg):
 
+        
         nltk.download('punkt')
         try:
             article = Article(msg)
@@ -49,6 +50,7 @@ def sms_reply():
  
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
