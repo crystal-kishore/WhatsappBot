@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello,!"
+    return "Hello ,!"
 
 
 @app.route("/sms", methods=['POST'])
