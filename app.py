@@ -4,8 +4,6 @@ import nltk
 from newspaper import Article
 import validators
 
-
-
 app = Flask(__name__)
 
 
