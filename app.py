@@ -1,6 +1,6 @@
 from  flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
-import nltk
+import  nltk
 from newspaper import Article
 import validators
 
@@ -51,6 +51,7 @@ def sms_reply():
  
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
